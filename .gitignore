@@ -30,7 +30,7 @@ coverage
 build/Release
 
 # Dependency directories
-node_modules
+node_modules/
 jspm_packages
 
 # Optional npm cache directory
@@ -38,3 +38,14 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+.tmp/
+coverage/
+dist/
+
+angular/.git
+angular/.tmp/
+angular/coverage/
+angular/dist/
+
+public/
